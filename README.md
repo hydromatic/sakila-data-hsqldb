@@ -20,7 +20,7 @@ License.
 -->
 [![Build Status](https://github.com/hydromatic/sakila-data-hsqldb/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/hydromatic/sakila-data-hsqldb/actions?query=branch%3Amain)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/net.hydromatic/sakila-data-hsqldb/badge.svg)](https://maven-badges.herokuapp.com/maven-central/net.hydromatic/sakila-data-hsqldb)
-[![javadoc](https://javadoc.io/badge2/net.hydromatic/morel/javadoc.svg)](https://javadoc.io/doc/net.hydromatic/sakila-data-hsqldb)
+[![javadoc](https://javadoc.io/badge2/net.hydromatic/sakila-data-hsqldb/javadoc.svg)](https://javadoc.io/doc/net.hydromatic/sakila-data-hsqldb)
 
 # Sakila Data Set in HSQLDB Format
 
