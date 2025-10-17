@@ -30,8 +30,8 @@ limitations under the License.
 
   <name>sakila-data-hsqldb</name>
   <description>Sakila data set in hsqldb format</description>
-  <url>http://github.com/hydromatic/sakila-data-hsqldb</url>
-  <inceptionYear>2015</inceptionYear>
+  <url>https://github.com/hydromatic/sakila-data-hsqldb</url>
+  <inceptionYear>2025</inceptionYear>
   <organization>
     <name>Julian Hyde</name>
     <url>http://www.hydromatic.net</url>
@@ -51,8 +51,7 @@ limitations under the License.
       <email>jhyde@apache.org</email>
       <url>https://github.com/julianhyde</url>
       <roles>
-        <role>architect</role>
-        <role>developer</role>
+        <role>maintainer</role>
       </roles>
       <timezone>-8</timezone>
       <properties />
@@ -65,7 +64,7 @@ limitations under the License.
       <subscribe>dev-subscribe@calcite.apache.org</subscribe>
       <unsubscribe>dev-unsubscribe@calcite.apache.org</unsubscribe>
       <post>dev@calcite.apache.org</post>
-      <archive>http://mail-archives.apache.org/mod_mbox/calcite-dev</archive>
+      <archive>https://mail-archives.apache.org/mod_mbox/calcite-dev</archive>
     </mailingList>
   </mailingLists>
 
@@ -193,6 +192,16 @@ limitations under the License.
             </configuration>
           </execution>
         </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.sonatype.central</groupId>
+        <artifactId>central-publishing-maven-plugin</artifactId>
+        <version>0.9.0</version>
+        <extensions>true</extensions>
+        <configuration>
+          <publishingServerId>central</publishingServerId>
+          <autoPublish>true</autoPublish>
+        </configuration>
       </plugin>
       <plugin>
         <groupId>pl.project13.maven</groupId>
