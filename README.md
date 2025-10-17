@@ -134,7 +134,7 @@ adding `sakila-data-hsqldb.jar` to your class path.
 Use Java version 11 or higher.
 
 ```bash
-git clone git://github.com/hydromatic/sakila-data-hsqldb.git
+git clone https://github.com/hydromatic/sakila-data-hsqldb.git
 cd sakila-data-hsqldb
 ./mvnw install
 ```
